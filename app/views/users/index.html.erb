@@ -1,0 +1,12 @@
+<% provide(:title, 'ユーザー一覧') %>
+<h1>ユーザー一覧</h1>
+
+<%= will_paginate %>
+
+<ul class="users">
+  <%= render @users %>
+</ul>
+
+<!--インスタンスでapp/vies/resources/_model.html.erb-->
+
+<%= will_paginate %>
