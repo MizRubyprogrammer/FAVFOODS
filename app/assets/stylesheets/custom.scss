@@ -17,6 +17,23 @@ body {
   padding-top: 60px;
 }
 
+.bg-image{
+  background-image: url("foods.jpg");
+  top: 0;
+  opacity:0.5;
+  width: 1500px;
+  height: 1000px;
+  position: fixed;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+
 section {
   overflow: auto;
 }

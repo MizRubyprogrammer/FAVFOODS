@@ -3,11 +3,12 @@ class MicropostsController < ApplicationController
   before_action :correct_user, only: :destroy
 
   def create
-    @microposts=current_user.microposts.build(microposts_params)
-    if @microposts.save
+    @micropost=current_user.microposts.build(microposts_params)
+    if @micropost.save
       flash[:success]="投稿しました！"
       redirect_to root_path
     else
+      @feed_items = []
       render 'static_pages/home'
     end
   end
