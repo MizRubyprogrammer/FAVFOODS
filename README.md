@@ -5,11 +5,19 @@
 アプリ作成時に行ったこと
 
 ・CRUD機能
+
 ・パーシャルによるリファクタリング
+
 ・minitestによるTDD
+
 ・ストロングパラメーターのメソッド作成
+
 ・will_paginate ページネーション機能
+
 ・session機能
+
 ・CarrierWaveで画像投稿機能追加
+
 ・fog 本番環境ではクラウドストレージに保存
+
 ・Amazon S3 と Heroku連携
