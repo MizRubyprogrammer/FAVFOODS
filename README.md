@@ -1,24 +1,15 @@
-# README
+おすすめの料理店をシェアし合うアプリ FAV FOODS！
+誰が、どんな店を気に入っているのかを知ることでより良いコミュニケーションが生まれるように、というコンセプトです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+アプリ作成時に行ったこと
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+・CRUD機能
+・パーシャルによるリファクタリング
+・minitestによるTDD
+・ストロングパラメーターのメソッド作成
+・will_paginate ページネーション機能
+・session機能
+・CarrierWaveで画像投稿機能追加
+・fog 本番環境ではクラウドストレージに保存
+・Amazon S3 と Heroku連携
